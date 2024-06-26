@@ -1,0 +1,145 @@
+* {
+    * {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+}
+
+body {
+    background-image: url(./img4.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#btn {
+    background: transparent;
+    color: #fff;
+    padding: 20px 40px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 30px;
+
+}
+
+#btn:hover {
+    background-color: #ffffff1e;
+    color: greenyellow;
+    transition: 0.5s;
+}
+
+#btn:active {
+    transform: scale(0.9);
+    transition: 0.5s;
+}
+
+.contact-form-container {
+    background-color: #ffffff1e;
+    padding: 20px;
+    border-radius: 15px;
+    width: 500px;
+    height: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    color: #000000;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #000000;
+    margin-bottom: 10px;
+    outline: none;
+}
+
+
+.fa-close {
+    cursor: pointer;
+}
+
+#btn {
+    background: transparent;
+    color: #ffffff;
+    padding: 20px 40px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 30px;
+    align-items: center;
+    margin-left: 500px;
+    font-weight: 600;
+
+
+}
+
+#btn:hover {
+    background-color: rgba(172, 255, 47, 0.205);
+    color: #000000fd;
+    transition: 0.5s;
+}
+
+#btn:active {
+    transform: scale(0.9);
+    transition: 0.5s;
+}
+
+.heading {
+    text-align: center;
+    margin-bottom: 20px;
+    color: yellowgreen;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+input {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 150px;
+    width: 100%;
+    font-size: 18px;
+    color: #333;
+}
+
+.submit {
+    background-color: yellowgreen;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 150px;
+    cursor: pointer;
+    font-size: 18px;
+    width: 100%;
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.submit:hover {
+    background-color: rgba(255, 255, 0, 0.665);
+    color: white;
+    transition: 0.5s;
+}
+
+.place-holder {
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.error {
+    color: red;
+    font-size: 12px;
+}
