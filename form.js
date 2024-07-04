@@ -1,18 +1,18 @@
-document.addEventListener('DOMContentLoaded', () => {
+
     const contactButton = document.getElementById('btn');
     const contactForm = document.getElementById('contactForm');
     const closeButton = document.getElementById('closeBtn');
 
     contactButton.addEventListener('click', () => {
-        contactFormContainer.style.display = 'flex';
         contactButton.style.display = 'none'; // Hide the button
+
     });
 
     closeButton.addEventListener('click', () => {
         contactForm.style.display = 'none';
         contactButton.style.display = 'block'; // Show the button again
     });
-});
+
 document.getElementById('btn').addEventListener('click', function() {
     document.getElementById('contactForm').style.display = 'flex';
     this.style.display = 'none'; 
@@ -36,7 +36,7 @@ document.getElementById('contactForm').addEventListener('submit', function(event
 
     nameError.textContent = '';
     addressError.textContent = '';
-    phoneError.telContent = '';
+    phoneError.textContent = '';
     emailError.textContent = '';
     messageError.textContent = '';
 
@@ -54,7 +54,7 @@ document.getElementById('contactForm').addEventListener('submit', function(event
 
     let phonePattern = /^\+94\d{9}$/;
     if (!phonePattern.test(phone)) {
-        phoneError.telContent = 'Phone number must start with +94 followed by nine digits';
+        phoneError.textContent = 'Phone number must start with +94 followed by nine digits';
         isValid = false;
     }
 
